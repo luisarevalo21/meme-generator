@@ -72,9 +72,19 @@ main {
 
 .meme {
   position: relative;
+  margin: 0 auto;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.meme-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .meme-image {
-  width: 100%;
+  /* position: relative; */
+  width: 60vh;
   border-radius: 3px;
 }
 

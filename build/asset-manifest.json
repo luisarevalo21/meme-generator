@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.205d178f.css",
-    "main.js": "/static/js/main.5298de89.js",
+    "main.css": "/static/css/main.bc4a03eb.css",
+    "main.js": "/static/js/main.c76e19ec.js",
     "static/js/787.876f76cf.chunk.js": "/static/js/787.876f76cf.chunk.js",
     "static/media/troll-face.png": "/static/media/troll-face.b677baa78e080334fc08.png",
     "index.html": "/index.html",
-    "main.205d178f.css.map": "/static/css/main.205d178f.css.map",
-    "main.5298de89.js.map": "/static/js/main.5298de89.js.map",
+    "main.bc4a03eb.css.map": "/static/css/main.bc4a03eb.css.map",
+    "main.c76e19ec.js.map": "/static/js/main.c76e19ec.js.map",
     "787.876f76cf.chunk.js.map": "/static/js/787.876f76cf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.205d178f.css",
-    "static/js/main.5298de89.js"
+    "static/css/main.bc4a03eb.css",
+    "static/js/main.c76e19ec.js"
   ]
 }
