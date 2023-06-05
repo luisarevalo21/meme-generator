@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Meme from "./components/Meme";
+import Test from "./components/Test";
+// import Boxes from "./components/Boxes/Boxes";
+// import Joke from "./components/Joke/Joke";
+// import jokes from "./components/Joke/jokesData.js";
 
 function App() {
+  // const joke = jokes.map(joke => {
+  //   return <Joke key={joke.id} setup={joke.setup} punchline={joke.punchline} />;
+  // });
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      {/* <Boxes darkMode={true} /> */}
+
+      {/* {joke} */}
+      {/* <Test /> */}
+      <Meme />
     </div>
   );
 }

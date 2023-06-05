@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  padding: 36px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  /* justify-content: space-between; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 65px;
+  padding: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+/* .left-header {
+  display: flex;
+  align-items: center;
+  margin: 0.5em;
+} */
+
+.troll-image {
+  width: 50px;
+  height: auto;
+  margin-right: 6px;
+  transform: scaleX(-1);
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header-project {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* .meme {
+  padding: 36px;
+} */
+.form {
+  display: grid;
+  gap: 17px;
+  grid-template: 40px 40px / 1fr 1fr;
+}
+.form-button {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  grid-column: 1 / -1;
+}
+
+.form-input {
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+.form-button,
+.form-input {
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+
+.meme {
+  position: relative;
+}
+.meme-image {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
   color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000,
+    0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .boxes {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  opacity: 0.5;
+  background-color: rgb(206, 203, 203);
+  margin-right: 4px;
+  display: inline-block;
+} */
